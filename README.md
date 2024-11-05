@@ -27,12 +27,15 @@ Para rodar o jogo da memória em sua máquina local, siga os passos abaixo:
    git clone https://github.com/seu-usuario/nome-do-repositorio.git
    
 2. Acesse o diretório do projeto:
+     ```bash
    cd nome-do-repositorio
 
-3. Instale as dependências necessárias:
+4. Instale as dependências necessárias:
+     ```bash
    npm install
 
-4. Inicie o projeto:
+6. Inicie o projeto:
+     ```bash
    npm start
 
 📁 Estrutura de Pastas

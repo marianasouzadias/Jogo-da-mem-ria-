@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Jogo da Memória - Padrinhos Mágicos ✨🪄
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![359c437c-2c4e-400d-a577-755a439ad2f2](https://github.com/user-attachments/assets/ab28b8b9-2cf4-4a38-8bbb-d750df162f4f)
 
-## Available Scripts
 
-In the project directory, you can run:
+Este é um projeto de jogo da memória desenvolvido em **React** e **SCSS**, com o tema dos **Padrinhos Mágicos**. O projeto foi criado com componentes reutilizáveis para manter o código mais organizado e facilitar futuras manutenções ou expansões.
 
-### `npm start`
+## 🎮 Funcionalidades
+- **Tema Personalizado**: Com o visual dos Padrinhos Mágicos, o jogo tem uma temática divertida e nostálgica.
+- **Contagem Regressiva**: Adiciona um toque de desafio, com um tempo limitado para completar o jogo.
+- **Efeitos Sonoros**: Sons especiais são tocados em momentos de vitória e derrota, para uma experiência mais imersiva.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Tecnologias Utilizadas
+- [React](https://reactjs.org/): Biblioteca JavaScript para construção de interfaces de usuário.
+- [SCSS](https://sass-lang.com/): Preprocessador CSS que permite escrever estilos de forma mais estruturada e reutilizável.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ## 🎶 Músicas
+As músicas utilizadas no jogo estão localizadas na pasta `mp3`. Elas incluem efeitos sonoros que melhoram a experiência do usuário.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Como Executar o Projeto
 
-### `npm run build`
+Para rodar o jogo da memória em sua máquina local, siga os passos abaixo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   
+2. Acesse o diretório do projeto:
+   cd nome-do-repositorio
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Instale as dependências necessárias:
+   npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Inicie o projeto:
+   npm start
 
-### `npm run eject`
+📁 Estrutura de Pastas
+src/Components: Contém todos os componentes reutilizáveis do jogo.
+src/Routes: Define as rotas para as páginas de vitória e derrota.
+src/img: Imagens utilizadas no jogo, como ícones de vitória e derrota.
+src/mp3: Pasta com as músicas e efeitos sonoros utilizados no jogo.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🤝 Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou fazer pull requests. Caso queira sugerir novas funcionalidades ou reportar bugs, por favor, entre em contato.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📄 Licença
+Este projeto está sob a licença MIT.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+👾 Divirta-se jogando e compartilhe com os amigos!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

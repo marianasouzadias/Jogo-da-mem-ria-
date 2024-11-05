@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px; 
+    padding: 30px; 
+    justify-content: center;
+
+    .card {
+        display: inline-block;
+        position: relative;
+        width: 100%; 
+        overflow: hidden; 
+        padding: 10px;
+     
+        img {
+            width: 80%; 
+            height: 200px; 
+            border-radius: 20px;
+            box-shadow: 2px 4px 10px rgba(0,0,0,0.4);
+            backface-visibility: hidden; // Para efeito de flip
+            transition: transform 0.3s ease,
+            box-shadow 0.3s ease; 
+            // Suaviza a virada
+        }
+        &:hover img{
+            transform: scale(1.1);
+            box-shadow: 2px 4px 10px rgba(0,0,0,0.6);
+        }
+
+    
+
+
+    // Animação de embaralhamento
+    .shuffle-left {
+        animation: shuffleLeft 1s ease-in-out forwards;
+    }
+
+    .shuffle-right {
+        animation: shuffleRight 1s ease-in-out forwards;
+    }
+
+    @keyframes shuffleLeft {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translate(-50px); // Mova 50px para a esquerda
+        }
+    }
+
+    @keyframes shuffleRight {
+        0% {
+            transform: translate(0);
+        }
+        100% {
+            transform: translate(50px); // Mova 50px para a direita
+        }
+    }
+}
+}

@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.app-header .logo {
+  margin-right: auto;
+  margin-left: 40px;
+}
+.app-header nav {
+  display: flex;
+  align-items: center;
+}
+.app-header nav .title-timer-container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.app-header nav .title-timer-container h1 {
+  font-size: 80px;
+  color: #9093ca;
+  margin: 0;
+}
+.app-header nav .title-timer-container .timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7278ee;
+  width: 150px;
+  height: 80px;
+  margin-right: 170px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+.app-header nav .title-timer-container .timer-container .timer-box {
+  background-color: rgba(195, 197, 236, 0.5);
+  border: 2px solid #F0F0F0;
+  border-radius: 10px;
+  padding: 10px;
+  width: 130px;
+}
+.app-header nav .title-timer-container .timer-container .timer-box .timer {
+  color: #F0F0F0;
+  font-family: "Courier New";
+  font-size: 30px;
+}/*# sourceMappingURL=Header.css.map */
